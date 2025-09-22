@@ -14,4 +14,7 @@ class testController extends Controller
     public function third(){
         return view('third');
     }
+    public function home(){
+        return view('home');
+    }
 }

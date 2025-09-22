@@ -17,6 +17,7 @@
         <h1>Знакомство с Laravel</h1>
         <a href="{{route('second')}}">Вторая страничка</a>
         <a href="/third">Тертья страничка</a>
+        <a href="{{route('home')}}">Home</a>
         <div class="container">
             @for ($i=1; $i<=12; $i++)
             <div class="card">

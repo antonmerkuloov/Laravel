@@ -32,3 +32,21 @@ body{
     object-fit: cover;
     border-radius: 15px;
 }
+header
+{
+    width: 100%;
+}
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.menu_ul{
+    width: 70px;
+    height: 17px;
+    padding: auto;
+    background-color: yellowgreen;
+}
+a{
+    text-decoration: none;
+}
